@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+  <script src="https://kit.fontawesome.com/ec6830b4f5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <main>
+    <h1>spli</br>tter</h1>
+
+    <section class="main">
+
+      <div class="left">
+        <form action="">
+          <p>Bill</p>
+          <p>$</p>
+          <input type="number" step="0.01" class="bill" placeholder="0">
+        </form>
+        <div class="percents">
+          <p>Select Tip %</p>
+          <div class="container">
+            <div class="percent">5%</div>
+            <div class="percent">10%</div>
+            <div class="percent">15%</div>
+            <div class="percent">25%</div>
+            <div class="percent">50%</div>
+            <div class="percent"><input type="text" placeholder="Custom" class="custom"></div>
+          </div>
+        </div>
+        <form action="#">
+          <p>Number of People</p>
+          <p class="zero">Can't be zero</p>
+          <p><i class="fas fa-user"></i></p>
+          <input type="number" class="people" placeholder="0">
+        </form>
+      </div>
+
+      <div class="right">
+        <div class="amount">
+          <p>Tip Amount</br><span>/ person</span></p>
+          <div class="value">$0.00</div>
+        </div>
+        <div class="total">
+          <p>Total</br><span>/ person</span></p>
+          <div class="value">$0.00</div>
+        </div>
+        <button>reset</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
